@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    color:#F9FAF8;
+    margin: 0;
+    padding: 0;
+
+    display:flex;
+    flex-direction: column;
+}
+
+body > * {
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    
+}
+
+.hero-text .main {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-text .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button:active {
+    background-color: #156fff;
+    border: 1px solid #156fff;
+}
+
+
+
+.placeholder {
+    background-color: gray;
+    padding: 8em 10em;
+}
+
+/*
+* {
+    border: 1px dashed red;
+}
+*/
