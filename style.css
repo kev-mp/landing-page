@@ -170,20 +170,19 @@ p {
 }
 
 .call {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .banner {
     background-color: #3882F6;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 64px;
-    padding: 4em 8em;
+    padding: 4em 6em;
     border-radius: 8px;
+    
 }
 
 .banner .title {
