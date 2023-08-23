@@ -171,7 +171,7 @@ p {
 
 .call {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 6em;
     padding-bottom: 6em;
 }
@@ -199,7 +199,17 @@ p {
     border: 2px solid #F9FAF8;
 }
 
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer p {
+    color:#F9FAF8;
+    padding: 3em 0;
+}
 /*
 * {
     border: 1px dashed red;
